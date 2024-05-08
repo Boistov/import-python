@@ -78,20 +78,14 @@
 
 
 
-
-
-# Инициализация переменной для суммы
 total_sum = 0
-
-# Ввод чисел и суммирование
 while True:
-    num = int(input("Введите число (для завершения введите 0): "))
+    num = int(input())
     if num == 0:
         break
-    total_sum += num
+    sum += num
+print (sum)
 
-# Вывод результата
-print(f"Сумма элементов последовательности: {total_sum}")
 
 
 
